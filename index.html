@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="profile">
+                <img src="images/444de9df-9045-400f-a862-f7bb7b8cdd01.jpg" alt="Profile Picture">
+                <p>muhammad sharif khan shahid</p>
+            </div>
+            <ul class="menu">
+                <li>Today tasks</li>
+                <li>Personal</li>
+                <li>Freelance</li>
+                <li>Work</li>
+                <li>Scheduled tasks</li>
+                <li>Settings</li>
+            </ul>
+        </aside>
+        <main>
+            <header>
+                <h1>Today main focus</h1>
+                <h2>Design team meeting</h2>
+                <input type="text" id="todo-input" placeholder="What is your next task?">
+                <button onclick="addTodo()">+</button>
+            </header>
+            <ul id="todo-list">
+                <!-- Tasks will be added here -->
+            </ul>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
